@@ -1,12 +1,12 @@
 html,
 body {
-  background-color: oldlace;
-  color: darkgreen;
+  background: whitesmoke;
   font-family: 'Lora', serif;
 }
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 * {

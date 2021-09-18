@@ -6,7 +6,7 @@
   justify-content: center;
   margin-top: -16.67vh;
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 16px;
 }
 
 .stack1 > * + * {
@@ -15,14 +15,14 @@
 
 .headline {
   font-size: 40px;
-  font-weight: 400;
-}
-
-.headline strong {
   font-weight: 600;
 }
 
 .subheader {
+  font-weight: 400;
+}
+
+.category {
   font-size: 32px;
   font-weight: 400;
 }
@@ -31,17 +31,21 @@
   margin-top: 16px;
 }
 
+.stack2 > * + * {
+  margin-top: 8px;
+}
+
 .list {
-  list-style: circle;
-  padding-left: 32px;
+  list-style: none;
 }
 
 .listItem {
-  font-size: 20px;
+  color: royalblue;
+  font-size: 16px;
   font-weight: 500;
   transition: color 200ms ease-in-out;
 }
 
 .listItem:hover {
-  color: lightseagreen;
+  color: mediumslateblue;
 }

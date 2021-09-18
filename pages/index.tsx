@@ -11,11 +11,12 @@ const Home: NextPage = () => {
       </Head>
       <main>
         <section className={styles.stack1}>
-          <h1 className={styles.headline}>
-            <strong>Nick Johnson</strong> | Front-End Developer
-          </h1>
+          <header className={styles.stack3}>
+            <h1 className={styles.headline}>Nick Johnson</h1>
+            <h2 className={styles.subheader}>Front-End Developer</h2>
+          </header>
           <section className={styles.stack2}>
-            <h2 className={styles.subheader}>Projects</h2>
+            <h2 className={styles.categoryHeader}>Projects</h2>
             <ul className={styles.list}>
               <li className={styles.listItem}>
                 <a

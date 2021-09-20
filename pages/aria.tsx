@@ -40,14 +40,14 @@ export const Aria: NextPage = () => (
         💻 GitHub - Main Site
       </a>
       <a
-        href="https://github.com/aria-app/aria-client"
+        href="https://github.com/aria-app/aria-ui"
         target="_blank"
         rel="noreferrer"
       >
         💻 GitHub - Component Library
       </a>
       <a
-        href="https://github.com/aria-app/aria-client"
+        href="https://github.com/aria-app/aria-api"
         target="_blank"
         rel="noreferrer"
       >

@@ -5,18 +5,19 @@ body {
 }
 
 a {
-  color: inherit;
+  color: royalblue;
+  font-size: 16px;
+  font-weight: 500;
   text-decoration: none;
+  transition: color 200ms ease-in-out;
+}
+
+a:hover {
+  color: mediumslateblue;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-a[target='_blank']::after {
-  color: inherit;
-  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
-  margin: 0 3px 0 5px;
 }

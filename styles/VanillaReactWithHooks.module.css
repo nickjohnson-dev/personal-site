@@ -15,3 +15,7 @@
   padding-bottom: 24px;
   padding-top: 24px;
 }
+
+.demo > * + * {
+  margin-top: 16px;
+}

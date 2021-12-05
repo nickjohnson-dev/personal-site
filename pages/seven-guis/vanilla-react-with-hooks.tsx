@@ -8,6 +8,7 @@ export const VanillaReactWithHooks: NextPage = () => (
   <div className={styles.container}>
     <h1>Vanilla React with Hooks</h1>
     <main className={styles.demo}>
+      <h2>01 - Counter</h2>
       <iframe
         src="https://codesandbox.io/embed/vanilla-react-with-hooks-erlwi?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.tsx&theme=dark"
         style={{

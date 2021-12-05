@@ -19,13 +19,16 @@ const Home: NextPage = () => {
         <section className={styles.stack1}>
           <header className={styles.stack3}>
             <h1 className={styles.headline}>Nick Johnson</h1>
-            <h2 className={styles.subheader}>Senior Front-End Developer</h2>
+            <h2 className={styles.subheader}>Lead Front-End Developer</h2>
           </header>
           <section className={styles.stack2}>
             <h2 className={styles.categoryHeader}>Projects</h2>
             <ul className={styles.list}>
               <li>
                 <Link href="/aria">🎵 Aria</Link>
+              </li>
+              <li>
+                <Link href="/seven-guis">🖼️ 7 GUIs</Link>
               </li>
             </ul>
           </section>
